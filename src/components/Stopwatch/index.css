@@ -1,0 +1,146 @@
+/* Write CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    height: 100vh;
+    background-size: cover;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: #333333;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.watch-container {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .watch-container {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stopWatchImg {
+  height: 20px;
+  width: 30px;
+  padding-right: 7px;
+}
+
+@media screen and (min-width: 768px) {
+  .stopWatchImg {
+    height: 50px;
+    width: 70px;
+  }
+}
+
+.timerHeading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #333333;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .timerHeading {
+    font-size: 20px;
+  }
+}
+
+.timer {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #333333;
+}
+
+.start-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  background-color: #1db05f;
+  border-radius: 5px;
+  border-width: 0px;
+  width: 50px;
+  height: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.stop-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  background-color: #ef0d36;
+  border-radius: 5px;
+  border-width: 0px;
+  width: 50px;
+  height: 30px;
+  color: #ffffff;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.reset-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  background-color: #eaa800;
+  border-radius: 5px;
+  border-width: 0px;
+  width: 50px;
+  height: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .start-button {
+    width: 60px;
+    height: 40px;
+  }
+  .stop-button {
+    width: 60px;
+    height: 40px;
+    margin: 10px;
+  }
+  .reset-button {
+    width: 60px;
+    height: 40px;
+  }
+}
